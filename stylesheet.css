@@ -112,6 +112,7 @@ h2 {
   display: inline-block;
 }
 
+/* ---- Force paper thumbnails to be visually centered ---- */
 .one {
   width: 160px;
   height: 160px;
@@ -124,7 +125,11 @@ h2 {
 
 .one img {
   display: block;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;   
 }
+
 
 .two {
   width: 160px;
