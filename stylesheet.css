@@ -116,6 +116,14 @@ h2 {
   width: 160px;
   height: 160px;
   position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one img {
+  display: block;
 }
 
 .two {
@@ -142,4 +150,9 @@ span.highlight {
     padding: 20px;
     display: inline-block;
     border-radius: 10px;
+}
+papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
 }
